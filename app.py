@@ -2,7 +2,7 @@ from flask import Flask, request, render_template
 from flask_mysqldb import MySQL
 from flask_cors import CORS
 import json
-
+#hi
 mysql = MySQL()
 app = Flask(__name__)
 CORS(app)
